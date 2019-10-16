@@ -1,5 +1,7 @@
 ## Movies 
 
+### Watch this tutorial to get started
+
 [https://www.otnet.tv/tutorials/create-a-cross-platform-ott-app-for-ios-and-android/](https://www.otnet.tv/tutorials/create-a-cross-platform-ott-app-for-ios-and-android/)**
 
 ### Importing and building from Command Line
