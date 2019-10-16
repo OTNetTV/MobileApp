@@ -1,0 +1,6 @@
+"#activity_indicator": {
+	style: Ti.UI.ActivityIndicatorStyle.BIG,
+	height:Ti.UI.SIZE,
+  	width:Ti.UI.SIZE,
+  	color: '#ff0000'
+}

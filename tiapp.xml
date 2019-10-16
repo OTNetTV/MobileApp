@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.appcelerator.movies</id>
+  <name>Movies</name>
+  <version>1.0.2</version>
+  <publisher>Appcelerator</publisher>
+  <url>http://www.appcelerator.com</url>
+  <description>Movies Sample App</description>
+  <copyright>2015-present by Appcelerator</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>true</navbar-hidden>
+  <!-- Set to 'true' to enable Ti.Analytics -->
+  <analytics>true</analytics>
+  <guid>1910be9d-95d9-4068-9fff-d171f846aa81</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <ios>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <default-background-color>#f00014</default-background-color>
+    <plist>
+      <dict>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleLightContent</string>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <modules>
+      <module platform="iphone" version="2.0.1">ti.coremotion</module>
+    </modules>
+    <deployment-targets>
+      <target device="android">true</target>
+      <target device="ipad">true</target>
+      <target device="iphone">true</target>
+      <target device="windows">true</target>
+    </deployment-targets>
+    <sdk-version>8.2.0.GA</sdk-version>
+    <plugins>
+      <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">5d8cb94ebac4d06360e4f92e</property>
+  </ti:app>

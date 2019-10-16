@@ -1,0 +1,42 @@
+<Alloy>
+	<Window id="window" title="Auth">
+		<View id="container_logged">
+
+			<Label id="customer_email" />
+			<Button id="btn" onClick="logout">
+				Logout
+			</Button>   
+			
+		</View>
+		<View id="container_login">
+
+			<TextField id="login_email" class="input" hintText="Email" value="test@test2.com" />
+			<TextField id="login_password" class="input" hintText="Email" />
+
+			<Button id="btn" onClick="login">
+				Submit
+			</Button>    
+
+			<Button id="btn_blank" onClick="rbtn">
+				Regsiter
+			</Button>      		
+			
+		</View>
+		<View id="container_register">
+
+			<TextField id="register_email" class="input" hintText="Email" value="test@test2.com" />
+			<TextField id="register_password" class="input" hintText="Email" />
+			<TextField id="register_passconf" class="input" hintText="Email" />
+
+			<Button id="btn" onClick="register">
+				Submit
+			</Button>    
+
+			<Button id="btn_blank" onClick="lbtn">
+				Login
+			</Button>      		
+			
+		</View>
+		<Require src="views/navbar" id="navbar" platform="ios" />
+	</Window>
+</Alloy>
